@@ -75,7 +75,20 @@
 
 //porcentaje 
 
-let numeroPorcentaje = prompt(' Ingresar numero para calcular')
-let porcentaje = prompt("Ingrese el porcentaje")
+// let numeroPorcentaje = prompt(' Ingresar numero para calcular')
+// let porcentaje = prompt("Ingrese el porcentaje")
 
-alert(`${numeroPorcentaje*porcentaje/100}`)
+// alert(`${numeroPorcentaje*porcentaje/100}`)
+
+//Calcular 
+
+let distancia = prompt("Ingrese la distancia")
+
+let caminando = 5
+let enBus = 10
+let auto = 20
+
+alert(`Ud tardara
+${distancia/caminando} 🚶‍♀️
+${distancia/enBus} 🚌
+${distancia/auto} 🚗 `)

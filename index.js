@@ -82,13 +82,29 @@
 
 //Calcular 
 
-let distancia = prompt("Ingrese la distancia")
+// let distancia = prompt("Ingrese la distancia")
 
-let caminando = 5
-let enBus = 10
-let auto = 20
+// let caminando = 5
+// let enBus = 10
+// let auto = 20
 
-alert(`Ud tardara
-${distancia/caminando} 🚶‍♀️
-${distancia/enBus} 🚌
-${distancia/auto} 🚗 `)
+// alert(`Ud tardara
+// ${distancia/caminando} 🚶‍♀️
+// ${distancia/enBus} 🚌
+// ${distancia/auto} 🚗 `)
+
+//Vuelos
+
+let primerVuelo = prompt("Ingrese su primer destino")
+let horasPrimerVuelo = prompt("Ingrese la duracion de su vuelo")
+let segundoVuelo = prompt("Ingrese su segundo destino")
+let horaSegundoVuelo = prompt("Ingrese la duracion de su vuelo")
+let tercerVuelo = prompt("Ingrese su tercer vuelo")
+let horasTercerVuelo = prompt("Ingrese la duracion del vuelo")
+
+alert(`Su escala de viajes es la siguiente
+${primerVuelo} ${horasPrimerVuelo}
+${segundoVuelo} ${horaSegundoVuelo}
+${tercerVuelo} ${horasTercerVuelo}
+
+${horasPrimerVuelo+horaSegundoVuelo+horasTercerVuelo}✈`)

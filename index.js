@@ -68,7 +68,14 @@
 
 //Perimetro Rectangulo
 
-let base = prompt(" Indique cuanto mide la base")
-let altura = prompt("Indique cuanto mide la altura")
+// let base = prompt(" Indique cuanto mide la base")
+// let altura = prompt("Indique cuanto mide la altura")
 
-alert(`El perimetro de su rectangulo mide ${base*2+altura*2}`)
+// alert(`El perimetro de su rectangulo mide ${base*2+altura*2}`)
+
+//porcentaje 
+
+let numeroPorcentaje = prompt(' Ingresar numero para calcular')
+let porcentaje = prompt("Ingrese el porcentaje")
+
+alert(`${numeroPorcentaje*porcentaje/100}`)

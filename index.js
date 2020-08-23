@@ -61,7 +61,14 @@
 // alert(`Sus minutos son ${minutos*60} en segundos`)
 
 //Triangulo 
-let base = prompt("Indique el valor de la base")
-let altura = prompt("Indique el valor de la altura")
+// let base = prompt("Indique el valor de la base")
+// let altura = prompt("Indique el valor de la altura")
 
-alert(`El area equivale a ${base*altura/2} `)
+// alert(`El area equivale a ${base*altura/2} `)
+
+//Perimetro Rectangulo
+
+let base = prompt(" Indique cuanto mide la base")
+let altura = prompt("Indique cuanto mide la altura")
+
+alert(`El perimetro de su rectangulo mide ${base*2+altura*2}`)
